@@ -54,7 +54,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  font-family: helvetica, arial, sans;
+  font-family: 'Open Sans', helvetica, arial, sans;
   min-height: 100vh;
 }
 .content-container {
@@ -88,6 +88,10 @@ h4 {
   color: #999;
   font-weight: bold;
   text-transform: uppercase;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', helvetica, sans;
+  font-weight: 100;
 }
 
 /* HEADER STYLES */
@@ -402,6 +406,25 @@ h4 {
 .social-list > li {
   display: inline-block;
   margin: 0 0.5em;
+}
+
+/* SOCIAL LINKS */
+.social-link {
+  background: rgba(150,150,150,0.5);
+  border-radius: 99px;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-family: helvetica, arial, sans;
+  font-size: 1.7em;
+  font-weight: bold;
+  height: 1.5em;
+  line-height: 1;
+  padding-top: 0.25em;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 1.5em;
 }
 
 /* HOMEPAGE STYLES */
